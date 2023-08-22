@@ -1,79 +1,103 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" href="styles.css">
-	<title>HTML Assignment 3</title>
-</head>
-<body>
-	<h1 align="center">HTML Assignment #3</h1>
-	<table border="1px inset rgb(128, 128, 128)" width="100%" id="table-1" class="middle">
-		<tr id="t11">
-			<td>left</td>
-			<td align="center">center</td>
-			<td align="right">right</td>
-		</tr>
-		<tr id="t12" class="center">
-			<td>left</td>
-			<td align="center">center</td>
-			<td align="right">right</td>
-		</tr>
-		<tr id="t13" class="right">
-			<td>left</td>
-			<td align="center">center</td>
-			<td align="right">right</td>
-		</tr>
-	</table>
-	<br><br>
-	<table border="1px inset rgb(128, 128, 128)" width="100%" height="200px" id="table-2" class="middle">
-		<tr>
-			<td colspan="6" id="t21"></td>
-		</tr>
-		<tr border="1px inset rgb(128, 128, 128)">
-			<td rowspan="4"></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td rowspan="2" colspan="3"></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td colspan="6"></td>
-		</tr>
-	</table>
-	<br><br>
-	<table id="table-3" width="100%" border="1px inset rgb(128, 128, 128)" spacing="1px" padding="1px" class="middle">
-		<tr height="20px">
-			<td bgcolor="green" colspan="3"></td>
-		</tr>
-		<tr>
-			<td width="33.33%"></td>
-			<td  align="center" spacing="1px" padding="1px" id="t-image">
-				<img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="png" border="1px inset rgb(128, 128, 128)">
-			</td>
-			<td width="33.33%"></td>
-		</tr>
-		<tr height="20px">
-			<td bgcolor="blue" colspan="3"></td>
-		</tr>
-	</table>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-</body>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML Assignment 3</title>
+    <style>
+      #table-3 {
+        border: 1px solid rgb(0, 0, 0);
+        border-spacing: 1px;
+      }
+      td {
+        padding: 1px;
+      }
+      .green {
+        background-color: green;
+      }
+      .blue {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">HTML Assignment #3</h1>
+    <table border="1px solid black" width="100%" id="table-1" class="middle">
+      <tr id="t11">
+        <td>left</td>
+        <td align="center">center</td>
+        <td align="right">right</td>
+      </tr>
+      <tr id="t12" class="center">
+        <td>left</td>
+        <td align="center">center</td>
+        <td align="right">right</td>
+      </tr>
+      <tr id="t13" class="right">
+        <td>left</td>
+        <td align="center">center</td>
+        <td align="right">right</td>
+      </tr>
+    </table>
+    <br /><br />
+    <table
+      border="1px solid black"
+      width="100%"
+      height="200px"
+      id="table-2"
+      class="middle"
+    >
+      <tr>
+        <td colspan="6" id="t21"></td>
+      </tr>
+      <tr>
+        <td rowspan="4"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td rowspan="2" colspan="3"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="6"></td>
+      </tr>
+    </table>
+    <br /><br />
+    <table
+      id="table-3"
+      width="100%">
+      <tr height="20px">
+        <td bgcolor="green" colspan="3"></td>
+      </tr>
+      <tr>
+        <td width="33.33%"></td>
+        <td>
+          <img
+            src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"
+            alt="png"/>
+        </td>
+        <td width="33.33%"></td>
+      </tr>
+      <tr height="20px">
+        <td bgcolor="blue" colspan="3"></td>
+      </tr>
+    </table>
+    <!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
